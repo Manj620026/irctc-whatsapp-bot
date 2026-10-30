@@ -1,0 +1,28 @@
+{
+  "name": "irctc-whatsapp-bot-starter",
+  "version": "1.0.0",
+  "description": "Production-ready Indian Railways WhatsApp Bot using irctc.dev API and Baileys. Live train tracking, PNR status, and seat availability.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "irctc",
+    "whatsapp-bot",
+    "baileys",
+    "indian-railways",
+    "pnr-status",
+    "train-tracking"
+  ],
+  "author": "irctc.dev Community <support@irctc.dev>",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.9",
+    "dotenv": "^16.4.7",
+    "pino": "^9.6.0",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
